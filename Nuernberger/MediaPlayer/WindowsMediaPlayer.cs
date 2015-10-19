@@ -10,7 +10,7 @@ namespace TaskReceiver.Plugins.Nuernberger.MediaPlayer
     {
         public string PluginName { get { return "WMP Control"; } }
 
-        public string CommandTrigger { get { return "/music"; } }
+        public string CommandTrigger { get { return "/music/wmp"; } }
 
         public void Execute(List<Tuple<string, string>> param)
         {

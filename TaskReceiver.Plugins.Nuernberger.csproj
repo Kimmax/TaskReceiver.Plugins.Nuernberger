@@ -44,7 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TaskReceiver.Plugin\TaskReciver.Plugin.csproj">
+    <ProjectReference Include="..\..\TaskReciver.Plugin.csproj">
       <Project>{0fd9021e-7662-41a2-8e81-39a962d7464a}</Project>
       <Name>TaskReciver.Plugin</Name>
     </ProjectReference>
